@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0073e370-59fb-4ff0-9901-05d38e4d68b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="KABllfao" />
+  </component>
+  <component name="ProjectId" id="1V98xMgtvuoC7zD8yGD7coXu8To" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1435" y="-86" key="EditFileWatcherDialog" timestamp="1576656504083">
+      <screen x="-1920" y="-311" width="1920" height="1057" />
+    </state>
+    <state x="-1435" y="-86" key="EditFileWatcherDialog/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656504083" />
+    <state x="-1537" y="-249" key="SettingsEditor" timestamp="1576656505532">
+      <screen x="-1920" y="-311" width="1920" height="1057" />
+    </state>
+    <state x="-1537" y="-249" key="SettingsEditor/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656505532" />
+  </component>
+</project>
