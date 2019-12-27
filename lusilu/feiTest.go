@@ -25,20 +25,26 @@ func main() {
 		store: a,
 	}
 	//1.获取key对应的value
-	http.HandleFunc("/api/cache/1", c.get)
+	http.HandleFunc("/api/cache/", c.route)
 	http.ListenAndServe(":8000", nil)
 
-	//2.设置key
-	http.HandleFunc("/api/cache/key", c.set)
-	http.ListenAndServe(":8000", nil)
-
-	//3.删除key
-	http.HandleFunc("/api/cache/1", c.del)
-	http.ListenAndServe(":8000", nil)
-
-	//4.设置key过期时间
-	http.HandleFunc("/api/cache/21/112220", c.setExpire)
-	http.ListenAndServe(":8000", nil)
+}
+func (c *cache) route(w http.ResponseWriter, req *http.Request) {
+	switch req.Method {
+	case "GET":
+		c.get(w, req)
+		return
+	case "POST":
+		c.set(w, req)
+		return
+	case "DELETE":
+		c.del(w, req)
+		return
+	case "PUT":
+		c.setExpire(w, req)
+		return
+	}
+	w.WriteHeader(404)
 }
 
 type Resp struct {
@@ -95,62 +101,69 @@ func (c *cache) get(w http.ResponseWriter, req *http.Request) {
 
 //设置缓存的key
 func (c *cache) set(w http.ResponseWriter, req *http.Request) {
-	respByte, _ := ioutil.ReadAll(req.Body)
-	var m = map[string]string{}
-	json.Unmarshal(respByte, &m)
-	var va = map[string]string{
-		"value":  m["value"],
-		"expire": m["expire"],
+	if(req.Method == "POST"){
+		respByte, _ := ioutil.ReadAll(req.Body)
+		var m = map[string]string{}
+		json.Unmarshal(respByte, &m)
+		var va = map[string]string{
+			"value":  m["value"],
+			"expire": m["expire"],
+		}
+		c.store[m["key"]] = va
+		r := Resp{
+			Code: 0,
+			Msg:  "设置成功",
+			Data: c.store,
+		}
+		bts, _ := json.Marshal(&r)
+		w.Write(bts)
 	}
-	c.store[m["key"]] = va
-	r := Resp{
-		Code: 0,
-		Msg:  "设置成功",
-		Data: c.store,
-	}
-	bts, _ := json.Marshal(&r)
-	w.Write(bts)
 }
 
 //删除key
 func (c *cache) del(w http.ResponseWriter, req *http.Request) {
-	key := req.URL.Path
-	k := strings.Split(key, "/")[3]
-	delete(c.store, k)
-	resp := Resp{
-		Code: 0,
-		Msg:  "删除成功",
+	if req.Method == "DELETE"{
+		key := req.URL.Path
+		k := strings.Split(key, "/")[3]
+		delete(c.store, k)
+		resp := Resp{
+			Code: 0,
+			Msg:  "删除成功",
+		}
+		bts, _ := json.Marshal(&resp)
+		w.Write(bts)
 	}
-	bts, _ := json.Marshal(&resp)
-	w.Write(bts)
+
 }
 
 //设置过期时间
 func (c *cache) setExpire(w http.ResponseWriter, req *http.Request) {
+	if req.Method == "PUT"{
+		key := req.URL.Path
+		k_url := strings.Split(key, "/")[3]
+		respByte, _ := ioutil.ReadAll(req.Body)
+		var request = map[string]string{}
 
-	key := req.URL.Path
-	k_url := strings.Split(key, "/")[3]
-	respByte, _ := ioutil.ReadAll(req.Body)
-	var request = map[string]string{}
+		json.Unmarshal(respByte, &request)
 
-	json.Unmarshal(respByte, &request)
-
-	var code = 0
-	var msg = ""
-	_, ok := c.store[k_url]
-	if ok == false {
-		code = 1
-		msg = "key不存在"
-	} else {
-		c.store[k_url]["expire"] = request["expire"]
-		code = 0
-		msg = "设置成功"
+		var code = 0
+		var msg = ""
+		_, ok := c.store[k_url]
+		if ok == false {
+			code = 1
+			msg = "key不存在"
+		} else {
+			c.store[k_url]["expire"] = request["expire"]
+			code = 0
+			msg = "设置成功"
+		}
+		resp := Resp{
+			Code: code,
+			Msg:  msg,
+			Data: c.store,
+		}
+		bts, _ := json.Marshal(&resp)
+		w.Write(bts)
 	}
-	resp := Resp{
-		Code: code,
-		Msg:  msg,
-		Data: c.store,
-	}
-	bts, _ := json.Marshal(&resp)
-	w.Write(bts)
+
 }
