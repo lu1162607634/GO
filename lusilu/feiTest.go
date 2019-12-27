@@ -101,7 +101,7 @@ func (c *cache) get(w http.ResponseWriter, req *http.Request) {
 
 //设置缓存的key
 func (c *cache) set(w http.ResponseWriter, req *http.Request) {
-	if(req.Method == "POST"){
+	if req.Method == "POST" {
 		respByte, _ := ioutil.ReadAll(req.Body)
 		var m = map[string]string{}
 		json.Unmarshal(respByte, &m)
@@ -113,7 +113,6 @@ func (c *cache) set(w http.ResponseWriter, req *http.Request) {
 		r := Resp{
 			Code: 0,
 			Msg:  "设置成功",
-			Data: c.store,
 		}
 		bts, _ := json.Marshal(&r)
 		w.Write(bts)
@@ -160,7 +159,6 @@ func (c *cache) setExpire(w http.ResponseWriter, req *http.Request) {
 		resp := Resp{
 			Code: code,
 			Msg:  msg,
-			Data: c.store,
 		}
 		bts, _ := json.Marshal(&resp)
 		w.Write(bts)
