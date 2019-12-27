@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0073e370-59fb-4ff0-9901-05d38e4d68b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
-    </list>
+    <list default="true" id="0073e370-59fb-4ff0-9901-05d38e4d68b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,10 +56,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="126" key="#GOROOT" timestamp="1577449613642">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="126" key="#GOROOT/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577449613642" />
     <state x="-1435" y="-86" key="EditFileWatcherDialog" timestamp="1576656504083">
       <screen x="-1920" y="-311" width="1920" height="1057" />
     </state>
     <state x="-1435" y="-86" key="EditFileWatcherDialog/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656504083" />
+    <state x="531" y="179" key="RollbackChangesDialog" timestamp="1577449585459">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="531" y="179" key="RollbackChangesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577449585459" />
     <state x="-1537" y="-249" key="SettingsEditor" timestamp="1576656505532">
       <screen x="-1920" y="-311" width="1920" height="1057" />
     </state>
