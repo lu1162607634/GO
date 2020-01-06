@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0073e370-59fb-4ff0-9901-05d38e4d68b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lusilu/feiTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/lusilu/feiTest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lusilu/feiTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/lusilu/Class01/feiTest.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,15 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build addTest.go">
+    <configuration name="go build addTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="httpcache" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/lusilu/addTest.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build feiTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="httpcache" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -54,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build addTest.go" />
         <item itemvalue="Go Build.go build feiTest.go" />
       </list>
     </recent_temporary>
@@ -82,22 +91,26 @@
       <screen x="-1920" y="-311" width="1920" height="1057" />
     </state>
     <state x="-1435" y="-86" key="EditFileWatcherDialog/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656504083" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577452388321">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577781316431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577452388321" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577452388319">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577499563162" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577781316431" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577781316431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577452388319" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577452388319">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577499563161" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577781316431" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577781316430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577452388319" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577452388320">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577499563159" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577781316430" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577781316431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577452388320" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577499563162" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577781316431" />
     <state x="531" y="179" key="RollbackChangesDialog" timestamp="1577449585459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
