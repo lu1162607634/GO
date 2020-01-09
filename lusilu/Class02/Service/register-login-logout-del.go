@@ -84,7 +84,7 @@ func (s *service) register(context *gin.Context) {
 func (s *service) login(c *gin.Context) {
 
 	username := c.PostForm("username")
-	password := c.PostForm("password")
+	password := getMd5(c.PostForm("password"))
 	u := new(models.User)
 	userInfo, err := s.x.Where("username=? and password=?", username, password).Get(u)
 	if err != nil || userInfo == false {
