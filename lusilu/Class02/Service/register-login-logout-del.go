@@ -71,7 +71,7 @@ func (s *service) register(context *gin.Context) {
 		return
 	}
 	u.Username = username
-	u.Password = password
+	u.Password = getMd5(password)
 	_, err = s.x.Insert(u)
 	if err != nil {
 		outputErr(context, 200, 1, "注册失败")
@@ -86,7 +86,7 @@ func (s *service) login(c *gin.Context) {
 	username := c.PostForm("username")
 	password := c.PostForm("password")
 	u := new(models.User)
-	userInfo, err := s.x.Where("username=?", username).Get(u)
+	userInfo, err := s.x.Where("username=? and password=?", username, password).Get(u)
 	if err != nil || userInfo == false {
 		outputErr(c, 200, 1, "数据库查询失败")
 		return

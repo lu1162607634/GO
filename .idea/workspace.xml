@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0073e370-59fb-4ff0-9901-05d38e4d68b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <recent name="$PROJECT_DIR$/lusilu/Class02" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build httpcache/lusilu/Class02/Service (1)">
+  <component name="RunManager" selected="Go Build.go build register-login-logout-del.go">
     <configuration name="go build exaple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="httpcache" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,11 +85,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build register-login-logout-del.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="httpcache" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/lusilu/Class02/Service/register-login-logout-del.go" />
+      <package value="httpcache" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -108,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build register-login-logout-del.go" />
         <item itemvalue="Go Build.go build httpcache/lusilu/Class02/Service (1)" />
         <item itemvalue="Go Build.go build register.go" />
         <item itemvalue="Go Build.go build httpcache/lusilu/Class02/Service" />
         <item itemvalue="Go Build.go build exaple.go" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -181,28 +178,32 @@
     </state>
     <state x="364" y="192" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1578550457448" />
     <state x="-1435" y="-86" key="EditFileWatcherDialog/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656504083" />
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom" timestamp="1578559617649">
+    <state width="1398" height="153" key="GridCell.Tab.0.bottom" timestamp="1578560361094">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578559617649" />
+    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578560188324" />
+    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361094" />
     <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578555880007" />
     <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452706" />
-    <state width="1398" height="153" key="GridCell.Tab.0.center" timestamp="1578559617647">
+    <state width="1398" height="153" key="GridCell.Tab.0.center" timestamp="1578560361093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578559617647" />
+    <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578560188322" />
+    <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361093" />
     <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578555880005" />
     <state width="1398" height="153" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452705" />
-    <state width="1398" height="153" key="GridCell.Tab.0.left" timestamp="1578559617646">
+    <state width="1398" height="153" key="GridCell.Tab.0.left" timestamp="1578560361092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578559617646" />
+    <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578560188320" />
+    <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361092" />
     <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578555880005" />
     <state width="1398" height="153" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452704" />
-    <state width="1398" height="153" key="GridCell.Tab.0.right" timestamp="1578559617648">
+    <state width="1398" height="153" key="GridCell.Tab.0.right" timestamp="1578560361093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578559617648" />
+    <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578560188323" />
+    <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361093" />
     <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578555880006" />
     <state width="1398" height="153" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452706" />
     <state x="531" y="179" key="RollbackChangesDialog" timestamp="1577449585459">
