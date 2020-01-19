@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0073e370-59fb-4ff0-9901-05d38e4d68b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lusilu/Class02/Service/register-login-logout-del.go" beforeDir="false" afterPath="$PROJECT_DIR$/lusilu/Class02/Service/register-login-logout-del.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,29 +47,22 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lusilu/Class03/service/cacheuser/impl" />
+      <recent name="$PROJECT_DIR$/lusilu/Class03/service/cache" />
+      <recent name="$PROJECT_DIR$/lusilu/Class03" />
+      <recent name="$PROJECT_DIR$/lusilu/Class02" />
+      <recent name="$PROJECT_DIR$/lusilu" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lusilu/Class02/models" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/lusilu/Class02/src" />
-      <recent name="$PROJECT_DIR$/lusilu/Class02" />
-    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build register-login-logout-del.go">
-    <configuration name="go build exaple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="httpcache" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/lusilu/Class02/Service/exaple.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build httpcache/lusilu/Class02/Service (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="httpcache" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,12 +72,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build httpcache/lusilu/Class02/Service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build httpcache/lusilu/Class02/cmd/user" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="httpcache" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/lusilu/Class02/cmd/user/main.go" />
+      <package value="httpcache/lusilu/Class02/cmd/user" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="httpcache" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/lusilu/Class02/Service/user.go" />
-      <package value="httpcache/lusilu/Class02/Service" />
+      <filePath value="$PROJECT_DIR$/lusilu/Class03/cmd/main.go" />
+      <package value="httpcache" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -105,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build register-login-logout-del.go" />
+        <item itemvalue="Go Build.go build httpcache/lusilu/Class02/cmd/user" />
         <item itemvalue="Go Build.go build httpcache/lusilu/Class02/Service (1)" />
         <item itemvalue="Go Build.go build register.go" />
-        <item itemvalue="Go Build.go build httpcache/lusilu/Class02/Service" />
-        <item itemvalue="Go Build.go build exaple.go" />
       </list>
     </recent_temporary>
   </component>
@@ -133,10 +138,10 @@
     <proxy>https://goproxy.cn</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Build_Tags_&amp;_Vendoring" timestamp="1578317572354">
+    <state x="320" y="115" key="#Build_Tags_&amp;_Vendoring" timestamp="1579157851661">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Build_Tags_&amp;_Vendoring/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578317572354" />
+    <state x="320" y="115" key="#Build_Tags_&amp;_Vendoring/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579157851661" />
     <state x="320" y="115" key="#File_Watchers" timestamp="1578363379757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -153,6 +158,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="640" y="114" key="#Go_Modules_(vgo)/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578316683517" />
+    <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578997653013">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="453" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578997653013" />
     <state x="429" y="92" key="#go_build_account.go" timestamp="1578309409904">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -178,53 +187,53 @@
     </state>
     <state x="364" y="192" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1578550457448" />
     <state x="-1435" y="-86" key="EditFileWatcherDialog/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656504083" />
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom" timestamp="1578561867932">
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom" timestamp="1579417700886">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578561867932" />
+    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579092165749" />
     <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361094" />
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578555880007" />
-    <state width="1398" height="153" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452706" />
-    <state width="1398" height="153" key="GridCell.Tab.0.center" timestamp="1578561867930">
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579417700886" />
+    <state width="1398" height="109" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1579148752638" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center" timestamp="1579417700880">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578561867930" />
+    <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579092165747" />
     <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361093" />
-    <state width="1398" height="153" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578555880005" />
-    <state width="1398" height="153" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452705" />
-    <state width="1398" height="153" key="GridCell.Tab.0.left" timestamp="1578561867928">
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579417700880" />
+    <state width="1398" height="109" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1579148752635" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left" timestamp="1579417700880">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578561867928" />
+    <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579092165745" />
     <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361092" />
-    <state width="1398" height="153" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578555880005" />
-    <state width="1398" height="153" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452704" />
-    <state width="1398" height="153" key="GridCell.Tab.0.right" timestamp="1578561867931">
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579417700880" />
+    <state width="1398" height="109" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1579148752634" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right" timestamp="1579417700881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578561867931" />
+    <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579092165748" />
     <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1578560361093" />
-    <state width="1398" height="153" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578555880006" />
-    <state width="1398" height="153" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1578320452706" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579417700881" />
+    <state width="1398" height="109" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1579148752636" />
     <state x="531" y="179" key="RollbackChangesDialog" timestamp="1577449585459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="531" y="179" key="RollbackChangesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577449585459" />
-    <state x="287" y="53" key="SettingsEditor" timestamp="1578559893241">
+    <state x="287" y="53" key="SettingsEditor" timestamp="1579155194244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="287" y="53" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578559893241" />
+    <state x="287" y="53" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1579155194244" />
     <state x="245" y="52" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578551075077" />
     <state x="-1537" y="-249" key="SettingsEditor/0.23.1440.819/-1920.-311.1920.1057@-1920.-311.1920.1057" timestamp="1576656505532" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578362986759">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1578362986759" />
-    <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1578310463921">
+    <state x="386" y="207" width="667" height="486" key="find.popup" timestamp="1579413661235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="386" y="207" width="667" height="486" key="find.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1578307725689" />
-    <state x="386" y="207" width="667" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1578310463921" />
+    <state x="386" y="207" width="667" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1579413661235" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578452995012">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

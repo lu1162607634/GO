@@ -1,0 +1,20 @@
+mode: set
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:18.21,23.2 1 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:25.85,30.37 5 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:33.2,37.15 4 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:30.37,32.3 1 0
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:40.85,45.23 5 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:48.2,51.16 4 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:53.2,53.26 1 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:45.23,47.3 1 0
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:51.17,52.3 0 0
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:57.63,62.2 4 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:64.63,67.16 3 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:70.2,72.16 2 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:75.2,78.16 3 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:81.2,81.15 1 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:84.2,85.26 2 1
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:67.16,69.3 1 0
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:72.16,74.3 1 0
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:78.16,80.3 1 0
+httpcache/lusilu/Class03/service/cacheuser/impl/userImpl.go:81.15,83.3 1 0

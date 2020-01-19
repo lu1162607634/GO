@@ -105,6 +105,7 @@ func (s *service) login(c *gin.Context) {
 func (s *service) logout(c *gin.Context) {
 	fmt.Println("exec logout")
 	token := c.GetHeader("token")
+	s.c.Do("DEL", "s")
 	s.c.Del(token)
 	outputErr(c, 200, 0, "登出成功")
 	return
